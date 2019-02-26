@@ -1,6 +1,6 @@
-# bath
+# bath (ES5, transpiled for the browser)
 
-A simple path template engine.
+A simple path template engine. Forked from [bouzuya/bath](https://github.com/bouzuya/bath)
 
 Twitter hashtag is [#bathjs](https://twitter.com/hashtag/bathjs).
 
@@ -9,7 +9,7 @@ This branch is for 2.x users. 1.x users: See [1.x](/../../tree/1.x) branch.
 ## Installation
 
 ```bash
-$ npm install bath
+$ npm install bath-es5
 ```
 
 ## Usage
