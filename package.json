@@ -1,7 +1,7 @@
 {
   "name": "bath-es5",
   "description": "A simple path template engine",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "author": {
     "name": "bouzuya",
     "email": "m@bouzuya.net",
@@ -62,7 +62,7 @@
     "url": "https://github.com/anttiviljami/bath-es5.git"
   },
   "scripts": {
-    "build": "npm-run-all -s build:lint build:es2015 build:es5 build:lib",
+    "build": "npm-run-all -s build:lint build:es2015 build:es5 build:libes5",
     "build:es2015": "tsc",
     "build:es5": "babel --out-dir .tmp/es5/ --source-maps inline .tmp/es2015/",
     "build:lib": "babel --copy-files --no-comments --out-dir ./ .tmp/es2015/src/",

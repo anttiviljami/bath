@@ -69,7 +69,7 @@ const matchPathPattern = (
 // '/users/{id}' -> /^\/users\/[^\/]*$/
 const toPathPattern = (template: PathTemplate): PathPattern => {
   return new RegExp(
-    '^' + template.replace(/\{[A-Za-z0-9_]+\}/g, '([^\\/]*)') + '$'
+    '^' + template.replace(/\{[A-Za-z0-9_-]+\}/g, '([^\\/]*)') + '$'
   );
 };
 
